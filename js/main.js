@@ -1,46 +1,60 @@
-/**
- *
- * Bootstrap one-page template with Parallax effect | Script Tutorials
- * http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2014, Script Tutorials
- * http://www.script-tutorials.com/
- */
+/* 
 
-$(document).ready(function (){
+Vanilla Template
 
-  // create a LatLng object containing the coordinate for the center of the map
-  var latlng = new google.maps.LatLng(-33.86455, 151.209);
+https://templatemo.com/tm-526-vanilla
 
-  // prepare the map properties
-  var options = {
-    zoom: 15,
-    center: latlng,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    navigationControl: true,
-    mapTypeControl: false,
-    scrollwheel: false,
-    disableDoubleClickZoom: true
-  };
+*/
 
-  // initialize the map object
-  var map = new google.maps.Map(document.getElementById('google_map'), options);
+jQuery(document).ready(function($) {
 
-  // add Marker
-  var marker1 = new google.maps.Marker({
-    position: latlng, map: map
-  });
+	'use strict';
 
-  // add listener for a click on the pin
-  google.maps.event.addListener(marker1, 'click', function() {
-    infowindow.open(map, marker1);
-  });
+    var top_header = $('.parallax-content');
+    top_header.css({'background-position':'center center'}); // better use CSS
 
-  // add information window
-  var infowindow = new google.maps.InfoWindow({
-    content:  '<div class="info"><strong>This is my company</strong><br><br>My company address is here<br> 32846 Sydney</div>'
-  });  
+    $(window).scroll(function () {
+    var st = $(this).scrollTop();
+    top_header.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
+    });
+
+
+    $('body').scrollspy({ 
+        target: '.fixed-side-navbar',
+        offset: 200
+    });
+      
+      // smoothscroll on sidenav click
+
+    $('.tabgroup > div').hide();
+        $('.tabgroup > div:first-of-type').show();
+        $('.tabs a').click(function(e){
+          e.preventDefault();
+            var $this = $(this),
+            tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
+            others = $this.closest('li').siblings().children('a'),
+            target = $this.attr('href');
+        others.removeClass('active');
+        $this.addClass('active');
+        $(tabgroup).children('div').hide();
+        $(target).show();
+      
+    })
+
+    var owl = $("#owl-testimonials");
+
+      owl.owlCarousel({
+        
+        pagination : true,
+        paginationNumbers: false,
+        autoPlay: 6000, //Set AutoPlay to 3 seconds
+        items : 3, //10 items above 1000px browser width
+        itemsDesktop : [1000,3], //5 items between 1000px and 901px
+        itemsDesktopSmall : [900,2], // betweem 900px and 601px
+        itemsTablet: [600,1], //2 items between 600 and 0
+        itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+        
+    });
+
+
 });
