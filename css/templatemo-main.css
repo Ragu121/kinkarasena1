@@ -19,6 +19,7 @@ section {
 body { 
   position: relative; /* we need this for the scrollspy */ 
   font-size: 14px;
+
 }
 
 a { color: #3CC; }
@@ -144,14 +145,16 @@ a:hover { color: #FF0; }
 
 
 .baner-content {
-  padding-top: 30vh;
+  #padding-top: 30vh;
   text-align: center;
   background-image: url(../img/1st-section.jpg);
+  /* Full height */
+  height: 100%;
 }
 
 .baner-content h1 {
   margin-top: 0px;
-  font-size: 128px;
+  font-size: 100px;
   color: #fff;
   font-weight: 900;
   text-transform: uppercase;
@@ -168,7 +171,7 @@ a:hover { color: #FF0; }
   display: inline-block;
   margin-top: -20px;
   font-weight: 300;
-  font-size: 48px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -176,8 +179,221 @@ a:hover { color: #FF0; }
   margin-top: 15px;
 }
 
+.baner-content1 {
+  #padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/2nd.jpg);
+  /* Full height */
+  height: 100%;
+}
 
+.baner-content1 h1 {
+  margin-top: 0px;
+  font-size: 100px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
 
+.baner-content1 em {
+  color: #ff7d27;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.baner-content1 span {
+  display: inline-block;
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.baner-content1 .primary-button {
+  margin-top: 15px;
+}
+
+.baner-content2 {
+  #padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/3rd.jpg);
+  /* Full height */
+  height: 100%;
+}
+
+.baner-content2 h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.baner-content2 em {
+  color: #ff7d27;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.baner-content2 span {
+  display: inline-block;
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.baner-content2 .primary-button {
+  margin-top: 15px;
+}
+
+.baner-content3 {
+  #padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/4th.jpg);
+  /* Full height */
+  height: 100%;
+}
+
+.baner-content3 h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.baner-content3 em {
+  color: #ff7d27;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.baner-content3 span {
+  display: inline-block;
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.baner-content3 .primary-button {
+  margin-top: 15px;
+}
+
+.baner-content4 {
+  #padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/5th.jpg);
+  /* Full height */
+  height: 100%;
+}
+
+.baner-content4 h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.baner-content4 em {
+  color: #ff7d27;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.baner-content4 span {
+  display: inline-block;
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 40px;
+  color: #fff;
+}
+
+.baner-content4 .primary-button {
+  margin-top: 15px;
+}
+
+.baner-content5 {
+  #padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/6th.jpg);
+  /* Full height */
+  height: 100%;
+}
+
+.baner-content5 h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.baner-content5 em {
+  text-align: center;
+  color: #ff7d27;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.baner-content5 span {
+  text-align: left;
+  display: inline-block;
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.baner-content5 .primary-button {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.baner-content6 {
+  #padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/7th.jpg);
+  /* Full height */
+  height: 100%;
+}
+
+.baner-content6 h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.baner-content6 em {
+  text-align: center;
+  color: #ff7d27;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.baner-content6 span {
+  text-align: left;
+  display: inline-block;
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.baner-content6 .primary-button {
+  text-align: center;
+  margin-top: 15px;
+}
 .service-content {
   padding-left: 15px;
   padding-right: 15px;
@@ -369,6 +585,7 @@ section {
   padding-right: 15px;
   padding-top: 16vh;
   background-image: url(../img/5th-section.jpg);
+  
 }
 
 .contact-form {
@@ -422,12 +639,7 @@ section {
   letter-spacing: 0.5px;
 }
 
-.map {
-  margin-bottom: 30px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px 20px;
-}
+
 
 
 
@@ -535,7 +747,7 @@ footer em {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1200px;
   }
 }
 
