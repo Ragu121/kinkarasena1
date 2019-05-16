@@ -752,6 +752,7 @@ img {
 .hero-area {
     position: relative;
     z-index: 1;
+	top: -26px;
 }
 
 .hero-area .owl-prev,
