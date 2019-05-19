@@ -150,16 +150,13 @@ a:hover {
 .parallax-content {
     width: 100%;
     min-height: 100vh;
-    background-size: cover;
+    background-size: auto;
 }
 
 .baner-content {
-    #padding-top: 30vh;
+    padding-top: 30vh;
     text-align: center;
-    background-image: url(../img/5th.jpg);
-
-    /* Full height */
-    height: 100%;
+    background-image: url(../img/We_Are.jpg);
 }
 
 .baner-content h1 {
@@ -190,12 +187,9 @@ a:hover {
 }
 
 .baner-content1 {
-    #padding-top: 30vh;
+    padding-top: 30vh;
     text-align: center;
-    background-image: url(../img/5th.jpg);
-
-    /* Full height */
-    height: 100%;
+    background-image: url(../img/About_Us.jpg);
 }
 
 .baner-content1 h1 {
@@ -226,12 +220,9 @@ a:hover {
 }
 
 .baner-content2 {
-    #padding-top: 30vh;
+    padding-top: 30vh;
     text-align: center;
     background-image: url(../img/5th.jpg);
-
-    /* Full height */
-    height: 100%;
 }
 
 .baner-content2 h1 {
@@ -262,12 +253,9 @@ a:hover {
 }
 
 .baner-content3 {
-    #padding-top: 30vh;
+    padding-top: 30vh;
     text-align: center;
-    background-image: url(../img/5th.jpg);
-
-    /* Full height */
-    height: 100%;
+    background-image: url(../img/We_Do.jpg);
 }
 
 .baner-content3 h1 {
@@ -298,12 +286,9 @@ a:hover {
 }
 
 .baner-content4 {
-    #padding-top: 30vh;
+    padding-top: 30vh;
     text-align: center;
-    background-image: url(../img/5th.jpg);
-
-    /* Full height */
-    height: 100%;
+    background-image: url(../img/Our_Clients.jpg);
 }
 
 .baner-content4 h1 {
@@ -334,12 +319,9 @@ a:hover {
 }
 
 .baner-content5 {
-    #padding-top: 30vh;
+    padding-top: 30vh;
     text-align: center;
-    background-image: url(../img/6th.jpg);
-
-    /* Full height */
-    height: 100%;
+    background-image: url(../img/Join_Our_Team.jpg);
 }
 
 .baner-content5 h1 {
@@ -375,7 +357,7 @@ a:hover {
 .baner-content6 {
     #padding-top: 30vh;
     text-align: center;
-    background-image: url(../img/7th.jpg);
+    background-image: url(../img/Our_Inspiration.jpg);
 
     /* Full height */
     height: 100%;
@@ -412,8 +394,8 @@ a:hover {
 }
 
 .service-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    #padding-left: 15px;
+    #padding-right: 15px;
     padding-top: 15vh;
     background-image: url(../img/2nd-section.jpg);
     background-attachment: fixed;
@@ -462,10 +444,11 @@ h4,
 
 .service-content .service-item {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 25px 30px;
+    #padding: 25px 30px;
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
+    margin-right: 0px;
 }
 
 .service-content .service-item .line-dec {
