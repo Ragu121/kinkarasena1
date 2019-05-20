@@ -464,9 +464,9 @@ a:hover {
 }
 
 .service-content4 {
-    #padding-left: 15px;
-    #padding-right: 15px;
-    #padding-top: 15vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15vh;
     background-image: url(../img/2nd-section.jpg);
     background-attachment: fixed;
     min-height: 100vh;
