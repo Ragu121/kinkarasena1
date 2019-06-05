@@ -702,18 +702,19 @@ h4,
   padding-bottom: 5px;
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 600px){
 .service-content2 .service-item p {
-  width:350px;
+  width:330px;
   #margin-left: 70px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   color : #ff7d27;
   font-weight: 400;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
 }
 .service-content2  box {
    box-sizing: border-box;
