@@ -1044,7 +1044,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 600px) {
   .container1 {
   border-radius: 55px;
-  width: 450px;
+  width: 400px;
   height: 900px;
   background-color: rgba(0, 0, 0, 0.5);
   #padding: 40px;
